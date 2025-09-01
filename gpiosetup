@@ -1,0 +1,9 @@
+#!/bin/sh
+
+# Enable LED Driver
+pinctrl set 27 op dh pd
+# Enable the Microphones (turns off the LED)
+pinctrl set 23 op dl pd
+# Set set the control buttons to inputs
+pinctrl set 5,6,16,26 ip pu
+
