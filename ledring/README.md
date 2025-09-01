@@ -43,4 +43,4 @@ loop
 ```
 This animation will display a purple ring for 10 seconds (10000/100) before going into a loop
 and pulsing until the loop count ends.
-In the above axample, `808` is exactly equivalent to `888888` and will set the red, green and blue LED values to `0x88`.
+In the above axample, `808` is exactly equivalent to `880088` and will set the red, green and blue LED values to `0x88`, `0x00` and `0x88` respectively.
